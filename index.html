@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Documento Acadêmico – Visualização</title>
+<meta name="robots" content="noindex,nofollow" />
+<style>
+:root{
+--brand:#8b0000; /* vermelho institucional genérico */
+--ink:#222;
+--muted:#6b7280;
+--paper:#ffffff;
+--bg:#f5f6f8;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif}
+.wrap{max-width:980px;margin:24px auto;padding:0 16px}
+.card{background:var(--paper);border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.08);overflow:hidden}
+.top{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center;padding:24px}
+.brand{display:flex;gap:14px;align-items:center}
+.logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,#a00,#600);display:grid;place-items:center;color:#fff;font-weight:800}
+.brand h1{font-size:20px;margin:0}
+.brand p{margin:2px 0 0;color:var(--muted);font-size:13px}
+.badge{font-size:12px;border:1px dashed #e5e7eb;padding:6px 10px;border-radius:999px;color:#374151}
+.divider{height:1px;background:#e5e7eb}
+.content{padding:32px 24px}
+h2{margin:0 0 18px;text-align:center;letter-spacing:.04em}
+.doc p{line-height:1.7;margin:12px 0}
+.doc strong{font-weight:700}
+.muted{color:var(--muted)}
+.sign{margin-top:36px;text-align:center}
+.sig{margin:16px auto 8px;width:180px;height:48px;border-bottom:2px solid #111}
+.footer{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center;padding:18px 24px;background:#fafafa}
+.qr{width:92px;height:92px;border:1px solid #e5e7eb;border-radius:8px;display:grid;place-items:center;color:#9ca3af;font-size:11px}
+.fine{font-size:12px;color:#6b7280}
+.alert{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;padding:10px 14px;border-radius:10px;margin-bottom:16px}
+@media print{
+body{background:#fff}
+.wrap{margin:0}
+.card{box-shadow:none;border-radius:0}
+.alert,.badge,.qr{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="alert"><strong>Mockup acadêmico:</strong> Página de Validação. Exemplificação de documento de comprovante de matricula.</div>
+
+
+<div class="card">
+<div class="top">
+<div class="brand">
+<div class="logo">U</div>
+<div>
+<h1>Universidade Virtual</h1>
+<p>Visualização de Documento Acadêmico</p>
+</div>
+</div>
+<span class="badge">Acesso público • Visual</span>
+</div>
+<div class="divider"></div>
+
+
+<div class="content">
+<h2>ATESTADO DE MATRÍCULA – GRADUAÇÃO</h2>
+<div class="doc">
+<p>Atesto para os devidos fins que <strong>Beatriz Santos Bisi Fontanari</strong>, portadora do RG nº <strong>408522604</strong>, Registro Acadêmico (RA) <strong>23217664</strong>, ingressante nesta instituição no <strong>2º semestre de 2023</strong>, é aluna regularmente <strong>ativa no 1º semestre de 2026</strong>, no curso de <strong>Engenharia de Computação</strong>, ofertado às terças-feiras, das <strong>18h00 às 22h00</strong>.</p>
+<p>O tempo de realização do curso é de <strong>5 (cinco) anos</strong>, desde que a aluna não obtenha reprovações ao longo da sua oferta. De forma complementar a este documento, poderá ser apresentado o Histórico Escolar.</p>
+<p class="muted">Autorização e credenciamento apresentados apenas para fins ilustrativos neste mockup.</p>
+<p style="text-align:center;margin-top:28px">São Paulo, <strong>12 de janeiro de 2026</strong></p>
+</div>
+
+
+<div class="sign">
+<div class="sig"></div>
+</html>
